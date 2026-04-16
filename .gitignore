@@ -1,0 +1,22 @@
+bin/
+.stfolder/
+.vs/
+.vscode/
+.stignore
+Notes/
+generate*
+
+# C#
+
+coveragereport/
+.config
+obj/
+TestResults/
+
+# C++
+
+x64/
+
+# python
+
+__pycache__
