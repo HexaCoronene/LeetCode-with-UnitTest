@@ -16,7 +16,7 @@
   - CSharpSolution (C# 题解)
   - PythonSolution (Python 题解)
 - Test
-  - CppMSTest (C++ 单元测试，使用Microsoft Unit Testing框架)
+  - CppMSUnitTest (C++ 单元测试，使用Microsoft Unit Testing框架)
   - CSharpXUnitTest (C# 单元测试，使用XUnit)
   - PythonUnitTest (Python 单元测试，使用unittest)
 

@@ -18,22 +18,10 @@
     <ClCompile Include="pch.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="11_maxArea_test.cpp">
+    <ClCompile Include="Hashmap\1_twoSum_test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="50_myPow_test.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="206_reverseList_test.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="20_isValid_test.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="15_threeSum_test.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Array\1_twoSum_test.cpp">
+    <ClCompile Include="414_thirdMax_test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
