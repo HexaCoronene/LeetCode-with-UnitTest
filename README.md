@@ -3,7 +3,7 @@
 适用 C++ Python C# 的LeetCode解题和单元测试解决方案架构
 
 1. 使用 Visual Studio 测试资源管理器对所有题目进行单元测试
-2. 使用 VSCode 只适用C#, Python的单元测试
+2. 使用 VSCode Testing 只适用C#, Python的单元测试
 
 ## 刷题题单
 
@@ -11,13 +11,14 @@
 
 ## 项目文件结构
 
-- Solution
+- Cpp
   - CppSolution (C++ 题解)
-  - CSharpSolution (C# 题解)
-  - PythonSolution (Python 题解)
-- Test
   - CppMSUnitTest (C++ 单元测试，使用Microsoft Unit Testing框架)
+- CSharp
+  - CSharpSolution (C# 题解)
   - CSharpXUnitTest (C# 单元测试，使用XUnit)
+- Python
+  - PythonSolution (Python 题解)
   - PythonUnitTest (Python 单元测试，使用unittest)
 
 ## 文件命名定义
@@ -27,6 +28,7 @@
 - 题目名称：`{id}_{problemName}.hpp`
 - 单元测试名称：`{id}_{problemName}_test.cpp`
 
+hpp 文件用于将类方法声明和定义写在一起
 id 为题目编号，不包含前导填充0；problemName 为题目名称，CamelCase命名法
 
 ### C#
@@ -51,7 +53,7 @@ Python文件导入不能以数字开头，所以题目名称以 `Q` 开头，id 
 
 ```cpp
 #include "pch.h" // 必须包含
-#include "yourSolution.hpp"
+#include "path_to_your_solution.hpp"
 
 // 其他头文件
 
@@ -88,7 +90,6 @@ public class Solution{id}_ProblemName_Test
         // Testcase
     }
 }
-
 ```
 
 ### Python
@@ -112,15 +113,11 @@ class TestSolution(unittest.TestCase):
     def test_twoSum(self):
         # testcase
         pass
-    
-
-if __name__ == '__main__':
-    unittest.main()
 ```
 
-## Visual Studio 使用
+## 测试配置使用
 
-### 测试资源管理器
+### Visual Studio 测试资源管理器
 
 ![img](./attachments/TestExplorer.png)
 
@@ -130,8 +127,19 @@ if __name__ == '__main__':
 
 #### C#
 
-Visual Studio亲儿子。
+Visual Studio 亲儿子。
 
 #### Python
 
+在 PythonUnitTest 项目中添加 PythonSolution 项目的搜索路径。
 保存后即自动扫描测试样例。
+
+### VSCode Testing
+
+#### C#
+
+在VSCode中安装C#插件后，在测试文件中右键单击并选择“Run Test”即可。
+
+#### Python
+
+参考[Python testing in Visual Studio Code](https://code.visualstudio.com/docs/python/testing)
