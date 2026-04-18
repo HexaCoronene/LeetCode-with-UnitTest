@@ -13,6 +13,8 @@ global using LeetCode.Solution.StringSol;
 global using LeetCode.Solution.Simulation;
 global using LeetCode.Solution.StackSol;
 global using LeetCode.Solution.ArraySol;
+global using LeetCode.Solution.ArraySol.ThroughoutArray;
+global using LeetCode.Solution.ArraySol.ElementCount;
 global using LeetCode.Solution.MathSol;
 global using LeetCode.Solution.Design;
 global using LeetCode.Solution.Tree;

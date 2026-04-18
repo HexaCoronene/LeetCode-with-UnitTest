@@ -11,11 +11,10 @@ namespace CppUnitTestHashmap
 	TEST_CLASS(TwoSumTests)
 	{
 	public:
-
 		TEST_METHOD(TestTwoSum)
 		{
 			twoSumSolution sol;
-			std::vector<int> v1{ 2,7,11,15 }, expected{ 0,1 };
+			std::vector<int> v1 { 2, 7, 11, 15 }, expected { 0, 1 };
 			auto res = sol.twoSum(v1, 9);
 			std::sort(res.begin(), res.end());
 

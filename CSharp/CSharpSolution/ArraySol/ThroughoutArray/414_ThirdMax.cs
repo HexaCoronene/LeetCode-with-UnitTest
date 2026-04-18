@@ -1,4 +1,4 @@
-namespace LeetCode.Solution.ArraySol;
+namespace LeetCode.Solution.ArraySol.ThroughoutArray;
 
 public class ThirdMaxSolution
 {

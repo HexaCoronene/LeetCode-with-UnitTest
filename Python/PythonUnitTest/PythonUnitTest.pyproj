@@ -27,8 +27,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="test_Q153_findMin.py" />
     <Compile Include="test_Q1_twoSum.py" />
-    <Compile Include="test_findMin.py" />
     <Compile Include="test_Q162_findPeakElement.py" />
     <Compile Include="test_Q18_fourSum.py" />
     <Compile Include="test_Q2917_findKOr.py">
