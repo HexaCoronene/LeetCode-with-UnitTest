@@ -6,20 +6,7 @@ global using System.Threading.Tasks;
 global using Xunit;
 
 global using LeetCode.Solution;
-global using LeetCode.Solution.LinkedListSol;
-global using LeetCode.Solution.DP;
-global using LeetCode.Solution.CalculateGeometry;
-global using LeetCode.Solution.StringSol;
-global using LeetCode.Solution.Simulation;
-global using LeetCode.Solution.StackSol;
+// Array
 global using LeetCode.Solution.ArraySol;
 global using LeetCode.Solution.ArraySol.ThroughoutArray;
 global using LeetCode.Solution.ArraySol.ElementCount;
-global using LeetCode.Solution.MathSol;
-global using LeetCode.Solution.Design;
-global using LeetCode.Solution.Tree;
-global using LeetCode.Solution.Hashmap;
-global using LeetCode.Solution.Graph;
-global using LeetCode.Solution.Greedy;
-global using LeetCode.Solution.BinarySearch;
-global using LeetCode.Solution.MultiThread;

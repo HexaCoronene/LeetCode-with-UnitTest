@@ -1,6 +1,5 @@
 namespace LeetCode.UnitTest.ArraySol;
 
-using LeetCode.Solution.ArraySol.ElementCount;
 public class Solution697_FindShortestSubArray_Test
 {
     [Theory]

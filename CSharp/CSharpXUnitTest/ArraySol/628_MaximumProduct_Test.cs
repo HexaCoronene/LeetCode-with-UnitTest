@@ -1,6 +1,5 @@
 namespace LeetCode.UnitTest.ArraySol;
 
-using LeetCode.Solution.ArraySol.ThroughoutArray;
 public class Solution628_MaximumProduct_Test
 {
     [Theory]

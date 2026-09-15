@@ -1,4 +1,4 @@
-namespace LeetCode.UnitTest;
+namespace LeetCode.UnitTest.Hashmap;
 
 
 public class Solution1_TwoSum_Test
