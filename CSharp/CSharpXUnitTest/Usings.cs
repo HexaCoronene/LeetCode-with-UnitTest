@@ -11,3 +11,4 @@ global using LeetCode.Solution.ArraySol;
 global using LeetCode.Solution.ArraySol.ThroughoutArray;
 global using LeetCode.Solution.ArraySol.ElementCount;
 global using LeetCode.Solution.ArraySol.ArrayChange;
+global using LeetCode.Solution.ArraySol.TwoDimensionArray;

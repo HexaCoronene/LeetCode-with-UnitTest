@@ -7,6 +7,8 @@ public class Solution448_FindDisappearedNumbers_Test
     [InlineData(new int[] { 1, 1 }, new int[] { 2 })]
     public void FindDisappearedNumbers_Test(int[] nums, int[] expected)
     {
-        Assert.True(expected.SequenceEqual(FindDisappearedNumbersSolution.FindDisappearedNumbers(nums)));
+        Assert.True(
+            expected.SequenceEqual(FindDisappearedNumbersSolution.FindDisappearedNumbers(nums))
+        );
     }
 }
