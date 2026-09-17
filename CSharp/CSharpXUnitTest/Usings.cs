@@ -12,3 +12,7 @@ global using LeetCode.Solution.ArraySol.ThroughoutArray;
 global using LeetCode.Solution.ArraySol.ElementCount;
 global using LeetCode.Solution.ArraySol.ArrayChange;
 global using LeetCode.Solution.ArraySol.TwoDimensionArray;
+
+// LinkedList
+global using LeetCode.Solution.LinkedListSol;
+global using LeetCode.Solution.LinkedListSol.Remove;
