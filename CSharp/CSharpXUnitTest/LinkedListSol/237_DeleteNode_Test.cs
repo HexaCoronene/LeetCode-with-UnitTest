@@ -1,4 +1,4 @@
-namespace LeetCode.UnitTest;
+namespace LeetCode.UnitTest.LinkedListSol;
 
 public class Solution237_DeleteNode_Test
 {
