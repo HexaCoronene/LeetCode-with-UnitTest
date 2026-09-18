@@ -22,28 +22,28 @@
 
 ### 数组的改变、移动
 
-- [ ] 453 MinMoves
-- [ ] 665 CheckPossibility
-- [ ] 283 MoveZeroes
+- [ ] 453 MinMoves 🟪
+- [ ] 665 CheckPossibility 🟪
+- [ ] 283 MoveZeroes 🟪
 
 ### 二维数组及滚动数组
 
-- [ ] 118 Generate
-- [ ] 119 GetRow
-- [ ] 661 ImageSmoother
-- [ ] 598 MaxCount
-- [ ] 419 CountBattleships
+- [ ] 118 Generate 🟪
+- [ ] 119 GetRow 🟪
+- [ ] 661 ImageSmoother 🟪
+- [ ] 598 MaxCount 🟪
+- [ ] 419 CountBattleships 🟪
 
 ### 数组的旋转
 
-- [ ] 189 RotateArray
-- [ ] 396 MaxRotateFunction
+- [ ] 189 RotateArray 🟪
+- [ ] 396 MaxRotateFunction 🟪
 
 ### 特定顺序遍历二维数组
 
-- [ ] 54 SpiralOrder
-- [ ] 59 GenerateMatrix
-- [ ] 498 FindDiagonalOrder
+- [ ] 54 SpiralOrder 🟪
+- [ ] 59 GenerateMatrix 🟪
+- [ ] 498 FindDiagonalOrder 🟪
 
 ### 二维数组变换
 
@@ -229,9 +229,9 @@
 
 ### 链表的删除
 
-- [ ] 203 RemoveElements
-- [ ] 237 DeleteNode
-- [ ] 19 RemoveNthFromEnd
+- [ ] 203 RemoveElements 🟪
+- [ ] 237 DeleteNode 🟪
+- [ ] 19 RemoveNthFromEnd 🟪
 
 ### 链表的遍历
 
