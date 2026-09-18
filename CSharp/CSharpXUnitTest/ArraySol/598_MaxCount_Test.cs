@@ -1,35 +1,39 @@
-namespace LeetCode.UnitTest;
+namespace LeetCode.UnitTest.ArraySol;
 
 public class Solution598_MaxCount_Test
 {
-    public static IEnumerable<object[]> MatrixEnumerator
-    {
-        get =>
+    public static IEnumerable<TheoryDataRow<int, int, int[][], int>> MatrixEnumerator =
+    [
+        new(
+            3,
+            3,
             [
-                [3, 3, new int[][] { [2, 2], [3, 3] }, 4],
-                [
-                    3,
-                    3,
-                    new int[][]
-                    {
-                        [2, 2],
-                        [3, 3],
-                        [3, 3],
-                        [3, 3],
-                        [2, 2],
-                        [3, 3],
-                        [3, 3],
-                        [3, 3],
-                        [2, 2],
-                        [3, 3],
-                        [3, 3],
-                        [3, 3],
-                    },
-                    4,
-                ],
-                [3, 3, Array.Empty<int[]>(), 9],
-            ];
-    }
+                [2, 2],
+                [3, 3],
+            ],
+            4
+        ),
+        new(
+            3,
+            3,
+            [
+                [2, 2],
+                [3, 3],
+                [3, 3],
+                [3, 3],
+                [2, 2],
+                [3, 3],
+                [3, 3],
+                [3, 3],
+                [2, 2],
+                [3, 3],
+                [3, 3],
+                [3, 3],
+            ],
+            4
+        ),
+        new(3, 3, [], 9),
+    ];
 
     [Theory]
     [MemberData(nameof(MatrixEnumerator))]

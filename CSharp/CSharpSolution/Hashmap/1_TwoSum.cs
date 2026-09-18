@@ -1,4 +1,4 @@
-namespace LeetCode.Solution;
+namespace LeetCode.Solution.Hashmap;
 
 public class TwoSumSolution
 {

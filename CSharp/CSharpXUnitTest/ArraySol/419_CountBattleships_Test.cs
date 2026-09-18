@@ -2,22 +2,23 @@ namespace LeetCode.UnitTest.ArraySol;
 
 public class Solution419_CountBattleships_Test
 {
-    public static IEnumerable<object[]> BattleshipMatrix
-    {
-        get =>
+    public static IEnumerable<TheoryDataRow<char[][], int>> BattleshipMatrix =
+    [
+        new(
             [
-                [
-                    new char[][]
-                    {
-                        ['X', '.', '.', 'X'],
-                        ['.', '.', '.', 'X'],
-                        ['.', '.', '.', 'X'],
-                    },
-                    2,
-                ],
-                [new char[][] { ['.'] }, 0],
-            ];
-    }
+                ['X', '.', '.', 'X'],
+                ['.', '.', '.', 'X'],
+                ['.', '.', '.', 'X'],
+            ],
+            2
+        ),
+        new(
+            [
+                ['.'],
+            ],
+            0
+        ),
+    ];
 
     [Theory]
     [MemberData(nameof(BattleshipMatrix))]

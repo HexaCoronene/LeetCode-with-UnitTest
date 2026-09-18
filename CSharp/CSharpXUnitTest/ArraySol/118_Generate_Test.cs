@@ -2,14 +2,25 @@ namespace LeetCode.UnitTest.ArraySol;
 
 public class Solution118_PascalTriangle_Test
 {
-    public static IEnumerable<object[]> MatrixEnumerator
-    {
-        get =>
+    public static IEnumerable<TheoryDataRow<int, int[][]>> MatrixEnumerator =
+    [
+        new(
+            5,
             [
-                [5, new int[][] { [1], [1, 1], [1, 2, 1], [1, 3, 3, 1], [1, 4, 6, 4, 1] }],
-                [1, new int[][] { [1] }],
-            ];
-    }
+                [1],
+                [1, 1],
+                [1, 2, 1],
+                [1, 3, 3, 1],
+                [1, 4, 6, 4, 1],
+            ]
+        ),
+        new(
+            1,
+            [
+                [1],
+            ]
+        ),
+    ];
 
     [Theory]
     [MemberData(nameof(MatrixEnumerator))]
@@ -19,7 +30,7 @@ public class Solution118_PascalTriangle_Test
         Assert.Equal(expected.Length, triangle.Count);
         foreach ((var exp, var tri) in expected.Zip(triangle))
         {
-            Assert.True(exp.SequenceEqual(tri));
+            Assert.Equal(exp, tri);
         }
     }
 }

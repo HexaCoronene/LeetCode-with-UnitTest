@@ -10,6 +10,8 @@ public class Solution19_RemoveNthFromEnd_Test
     {
         ListNode head = new(nodes);
         Assert.True(n >= 1);
-        Assert.True(expected.SequenceEqual(RemoveNthFromEndSolution.RemoveNthFromEnd(head, n).ToArray()));
+        Assert.True(
+            expected.SequenceEqual(RemoveNthFromEndSolution.RemoveNthFromEnd(head, n).ToArray())
+        );
     }
 }

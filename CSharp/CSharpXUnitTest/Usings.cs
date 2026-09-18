@@ -16,3 +16,5 @@ global using LeetCode.Solution.ArraySol.TwoDimensionArray;
 global using LeetCode.Solution.LinkedListSol;
 global using LeetCode.Solution.LinkedListSol.Remove;
 global using Xunit;
+// Hashmap
+global using LeetCode.Solution.Hashmap;
