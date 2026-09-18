@@ -12,7 +12,7 @@ public class MaxRotateFunctionSolution
         int next = max;
         for (int i = 1; i < nums.Length; i++)
         {
-            next = next + sum - nums.Length * nums[nums.Length - i];
+            next = next + sum - nums.Length * nums[^i];
             max = Math.Max(max, next);
         }
         return max;
