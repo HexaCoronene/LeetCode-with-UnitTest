@@ -18,3 +18,5 @@ global using LeetCode.Solution.LinkedListSol.Remove;
 global using Xunit;
 // Hashmap
 global using LeetCode.Solution.Hashmap;
+// BinarySearch
+global using LeetCode.Solution.BinarySearch;
