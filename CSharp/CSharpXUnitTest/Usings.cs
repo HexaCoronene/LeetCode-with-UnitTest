@@ -12,6 +12,9 @@ global using LeetCode.Solution.ArraySol.ElementCount;
 global using LeetCode.Solution.ArraySol.SpecificSequenceThroughtTwoDimensionArray;
 global using LeetCode.Solution.ArraySol.ThroughoutArray;
 global using LeetCode.Solution.ArraySol.TwoDimensionArray;
+// String
+global using LeetCode.Solution.StringSol;
+global using LeetCode.Solution.StringSol.Character;
 // LinkedList
 global using LeetCode.Solution.LinkedListSol;
 global using LeetCode.Solution.LinkedListSol.Remove;
