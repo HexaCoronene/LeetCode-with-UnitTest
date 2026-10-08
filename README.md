@@ -74,7 +74,7 @@ namespace spaceName {
 
 具体细节请参考[在 Visual Studio 中使用适用于 C++ 的 Microsoft Unit Testing 框架](https://learn.microsoft.com/zh-cn/visualstudio/test/how-to-use-microsoft-test-framework-for-cpp?view=visualstudio)
 
-### C#
+### C\#
 
 在Usings.cs中添加全局引用 `global using Xunit;`，以使用 XUnit 框架
 
@@ -101,12 +101,12 @@ import unittest
 from PythonSolution.xxx import Solution
 
 class TestSolution(unittest.TestCase):
-    # case1 ok
+    # write case1 ok
     def test_twoSum(self): 
         solution = Solution()
         # testcase
 
-    # case2 ok
+    # write case2 ok
     def setUp(self) -> None:
         self.solution = Solution()
     
@@ -136,10 +136,20 @@ Visual Studio 亲儿子。
 
 ### VSCode Testing
 
+#### C++
+
+VSCode 中暂时不支持 Microsoft Cpp Unittest Framework
+
+如有需要，可安装插件编写 gtest 测试项目。
+
 #### C#
 
-在VSCode中安装C#插件后，在测试文件中右键单击并选择“Run Test”即可。
+在VSCode中安装C# Dev Kit插件后，在测试文件中右键单击并选择“Run Test”即可。
 
 #### Python
 
 参考[Python testing in Visual Studio Code](https://code.visualstudio.com/docs/python/testing)
+
+python.testing.unittestArgs：在顶层项目文件夹中查找名称中包含 test 的任何 Python (.py) 文件。所有测试文件必须是可导入的模块或包。你可以使用 -p 配置设置自定义文件匹配模式，并使用 -t 设置自定义文件夹。
+
+有时放在子文件夹中的测试无法被发现，因为这些测试文件无法被导入。为了使它们可导入，请在该文件夹中创建一个名为 `__init__.py` 的空文件。
