@@ -66,7 +66,7 @@
 
 ### 字符
 
-- [ ] 520 DetectCapitalUse
+- [ ] 520 DetectCapitalUse 🟪
 
 ### 回文串的定义
 
@@ -607,8 +607,8 @@
 - [ ] 436 FindRightInterval
 - [ ] 300 LengthOfLIS
 - [ ] 354 MaxEnvelopes
-- [ ] 658 FindClosestElements
-- [ ] 162 FindPeakElement
+- [ ] 658 FindClosestElements 🟪
+- [ ] 162 FindPeakElement 🟩
 - [ ] 4 FindMedianSortedArrays
 
 ### 二分查找与旋转数组
